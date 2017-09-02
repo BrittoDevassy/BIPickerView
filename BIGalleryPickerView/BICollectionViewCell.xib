@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BICollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="leT-1X-Y62">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIi-uc-JTl" customClass="BISelectionButton">
+                        <rect key="frame" x="110" y="110" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Odj-t5-S9u"/>
+                            <constraint firstAttribute="height" constant="40" id="VWT-5s-yX2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <inset key="contentEdgeInsets" minX="5" minY="5" maxX="0.0" maxY="0.0"/>
+                        <state key="normal">
+                            <color key="titleColor" red="0.086274509799999996" green="0.62745098040000002" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="34r-aW-fjF"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="leT-1X-Y62" secondAttribute="bottom" id="HXS-Ad-4YU"/>
+                <constraint firstAttribute="bottom" secondItem="zIi-uc-JTl" secondAttribute="bottom" id="PAK-CL-wlK"/>
+                <constraint firstItem="zIi-uc-JTl" firstAttribute="leading" secondItem="leT-1X-Y62" secondAttribute="trailing" constant="5" id="PkC-t1-EmO"/>
+                <constraint firstAttribute="trailing" secondItem="zIi-uc-JTl" secondAttribute="trailing" id="Se4-QM-6Qm"/>
+                <constraint firstAttribute="trailing" secondItem="leT-1X-Y62" secondAttribute="trailing" id="e3M-QP-gIF"/>
+                <constraint firstItem="zIi-uc-JTl" firstAttribute="top" secondItem="leT-1X-Y62" secondAttribute="bottom" constant="5" id="gDS-SU-jgY"/>
+                <constraint firstItem="leT-1X-Y62" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gIy-7D-akV"/>
+                <constraint firstItem="leT-1X-Y62" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="sny-YE-cWI"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="PkC-t1-EmO"/>
+                    <exclude reference="gDS-SU-jgY"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="imageView" destination="leT-1X-Y62" id="KR1-Vm-DDv"/>
+                <outlet property="selectionButton" destination="zIi-uc-JTl" id="WWG-qG-8ho"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

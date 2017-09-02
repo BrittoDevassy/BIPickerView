@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A757840C1F5B0C9F0011F6D6 /* BIGalleryPickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75784021F5B0C9F0011F6D6 /* BIGalleryPickerView.framework */; };
+		A75784111F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784101F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m */; };
+		A75784131F5B0C9F0011F6D6 /* BIGalleryPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784051F5B0C9F0011F6D6 /* BIGalleryPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A75784271F5B0CDC0011F6D6 /* BICollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A757841C1F5B0CDC0011F6D6 /* BICollectionViewCell.h */; };
+		A75784281F5B0CDC0011F6D6 /* BICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A757841D1F5B0CDC0011F6D6 /* BICollectionViewCell.m */; };
+		A75784291F5B0CDC0011F6D6 /* BICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A757841E1F5B0CDC0011F6D6 /* BICollectionViewCell.xib */; };
+		A757842A1F5B0CDC0011F6D6 /* BIPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A757841F1F5B0CDC0011F6D6 /* BIPickerView.xib */; };
+		A757842B1F5B0CDC0011F6D6 /* BISelectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784201F5B0CDC0011F6D6 /* BISelectionButton.h */; };
+		A757842C1F5B0CDC0011F6D6 /* BISelectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784211F5B0CDC0011F6D6 /* BISelectionButton.m */; };
+		A757842D1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784221F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h */; };
+		A757842E1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784231F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.m */; };
+		A757842F1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75784241F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib */; };
+		A75784301F5B0CDC0011F6D6 /* BIPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784251F5B0CDC0011F6D6 /* BIPickerView.h */; };
+		A75784311F5B0CDC0011F6D6 /* BIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784261F5B0CDC0011F6D6 /* BIPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A757840D1F5B0C9F0011F6D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75783F91F5B0C9F0011F6D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A75784011F5B0C9F0011F6D6;
+			remoteInfo = BIGalleryPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A75784021F5B0C9F0011F6D6 /* BIGalleryPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BIGalleryPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75784051F5B0C9F0011F6D6 /* BIGalleryPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIGalleryPickerView.h; sourceTree = "<group>"; };
+		A75784061F5B0C9F0011F6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A757840B1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIGalleryPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75784101F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIGalleryPickerViewTests.m; sourceTree = "<group>"; };
+		A75784121F5B0C9F0011F6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A757841C1F5B0CDC0011F6D6 /* BICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BICollectionViewCell.h; sourceTree = "<group>"; };
+		A757841D1F5B0CDC0011F6D6 /* BICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BICollectionViewCell.m; sourceTree = "<group>"; };
+		A757841E1F5B0CDC0011F6D6 /* BICollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BICollectionViewCell.xib; sourceTree = "<group>"; };
+		A757841F1F5B0CDC0011F6D6 /* BIPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIPickerView.xib; sourceTree = "<group>"; };
+		A75784201F5B0CDC0011F6D6 /* BISelectionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BISelectionButton.h; sourceTree = "<group>"; };
+		A75784211F5B0CDC0011F6D6 /* BISelectionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BISelectionButton.m; sourceTree = "<group>"; };
+		A75784221F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraPreviewCollectionViewCell.h; sourceTree = "<group>"; };
+		A75784231F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraPreviewCollectionViewCell.m; sourceTree = "<group>"; };
+		A75784241F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraPreviewCollectionViewCell.xib; sourceTree = "<group>"; };
+		A75784251F5B0CDC0011F6D6 /* BIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPickerView.h; sourceTree = "<group>"; };
+		A75784261F5B0CDC0011F6D6 /* BIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A75783FE1F5B0C9F0011F6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75784081F5B0C9F0011F6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A757840C1F5B0C9F0011F6D6 /* BIGalleryPickerView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A75783F81F5B0C9F0011F6D6 = {
+			isa = PBXGroup;
+			children = (
+				A75784041F5B0C9F0011F6D6 /* BIGalleryPickerView */,
+				A757840F1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests */,
+				A75784031F5B0C9F0011F6D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A75784031F5B0C9F0011F6D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A75784021F5B0C9F0011F6D6 /* BIGalleryPickerView.framework */,
+				A757840B1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A75784041F5B0C9F0011F6D6 /* BIGalleryPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A75784051F5B0C9F0011F6D6 /* BIGalleryPickerView.h */,
+				A757841C1F5B0CDC0011F6D6 /* BICollectionViewCell.h */,
+				A757841D1F5B0CDC0011F6D6 /* BICollectionViewCell.m */,
+				A757841E1F5B0CDC0011F6D6 /* BICollectionViewCell.xib */,
+				A757841F1F5B0CDC0011F6D6 /* BIPickerView.xib */,
+				A75784201F5B0CDC0011F6D6 /* BISelectionButton.h */,
+				A75784211F5B0CDC0011F6D6 /* BISelectionButton.m */,
+				A75784221F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h */,
+				A75784231F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.m */,
+				A75784241F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib */,
+				A75784251F5B0CDC0011F6D6 /* BIPickerView.h */,
+				A75784261F5B0CDC0011F6D6 /* BIPickerView.m */,
+				A75784061F5B0C9F0011F6D6 /* Info.plist */,
+			);
+			path = BIGalleryPickerView;
+			sourceTree = "<group>";
+		};
+		A757840F1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A75784101F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m */,
+				A75784121F5B0C9F0011F6D6 /* Info.plist */,
+			);
+			path = BIGalleryPickerViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A75783FF1F5B0C9F0011F6D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A757842B1F5B0CDC0011F6D6 /* BISelectionButton.h in Headers */,
+				A75784271F5B0CDC0011F6D6 /* BICollectionViewCell.h in Headers */,
+				A75784131F5B0C9F0011F6D6 /* BIGalleryPickerView.h in Headers */,
+				A75784301F5B0CDC0011F6D6 /* BIPickerView.h in Headers */,
+				A757842D1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A75784011F5B0C9F0011F6D6 /* BIGalleryPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75784161F5B0C9F0011F6D6 /* Build configuration list for PBXNativeTarget "BIGalleryPickerView" */;
+			buildPhases = (
+				A75783FD1F5B0C9F0011F6D6 /* Sources */,
+				A75783FE1F5B0C9F0011F6D6 /* Frameworks */,
+				A75783FF1F5B0C9F0011F6D6 /* Headers */,
+				A75784001F5B0C9F0011F6D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BIGalleryPickerView;
+			productName = BIGalleryPickerView;
+			productReference = A75784021F5B0C9F0011F6D6 /* BIGalleryPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A757840A1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75784191F5B0C9F0011F6D6 /* Build configuration list for PBXNativeTarget "BIGalleryPickerViewTests" */;
+			buildPhases = (
+				A75784071F5B0C9F0011F6D6 /* Sources */,
+				A75784081F5B0C9F0011F6D6 /* Frameworks */,
+				A75784091F5B0C9F0011F6D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A757840E1F5B0C9F0011F6D6 /* PBXTargetDependency */,
+			);
+			name = BIGalleryPickerViewTests;
+			productName = BIGalleryPickerViewTests;
+			productReference = A757840B1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A75783F91F5B0C9F0011F6D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Britto;
+				TargetAttributes = {
+					A75784011F5B0C9F0011F6D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B44XA6P6WA;
+						ProvisioningStyle = Automatic;
+					};
+					A757840A1F5B0C9F0011F6D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B44XA6P6WA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A75783FC1F5B0C9F0011F6D6 /* Build configuration list for PBXProject "BIGalleryPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A75783F81F5B0C9F0011F6D6;
+			productRefGroup = A75784031F5B0C9F0011F6D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A75784011F5B0C9F0011F6D6 /* BIGalleryPickerView */,
+				A757840A1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A75784001F5B0C9F0011F6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A757842F1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib in Resources */,
+				A75784291F5B0CDC0011F6D6 /* BICollectionViewCell.xib in Resources */,
+				A757842A1F5B0CDC0011F6D6 /* BIPickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75784091F5B0C9F0011F6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A75783FD1F5B0C9F0011F6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75784281F5B0CDC0011F6D6 /* BICollectionViewCell.m in Sources */,
+				A75784311F5B0CDC0011F6D6 /* BIPickerView.m in Sources */,
+				A757842C1F5B0CDC0011F6D6 /* BISelectionButton.m in Sources */,
+				A757842E1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75784071F5B0C9F0011F6D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75784111F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A757840E1F5B0C9F0011F6D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A75784011F5B0C9F0011F6D6 /* BIGalleryPickerView */;
+			targetProxy = A757840D1F5B0C9F0011F6D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A75784141F5B0C9F0011F6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A75784151F5B0C9F0011F6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A75784171F5B0C9F0011F6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B44XA6P6WA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BIGalleryPickerView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = britto.BIGalleryPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A75784181F5B0C9F0011F6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B44XA6P6WA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BIGalleryPickerView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = britto.BIGalleryPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A757841A1F5B0C9F0011F6D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B44XA6P6WA;
+				INFOPLIST_FILE = BIGalleryPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = britto.BIGalleryPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A757841B1F5B0C9F0011F6D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = B44XA6P6WA;
+				INFOPLIST_FILE = BIGalleryPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = britto.BIGalleryPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A75783FC1F5B0C9F0011F6D6 /* Build configuration list for PBXProject "BIGalleryPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75784141F5B0C9F0011F6D6 /* Debug */,
+				A75784151F5B0C9F0011F6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75784161F5B0C9F0011F6D6 /* Build configuration list for PBXNativeTarget "BIGalleryPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75784171F5B0C9F0011F6D6 /* Debug */,
+				A75784181F5B0C9F0011F6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A75784191F5B0C9F0011F6D6 /* Build configuration list for PBXNativeTarget "BIGalleryPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A757841A1F5B0C9F0011F6D6 /* Debug */,
+				A757841B1F5B0C9F0011F6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A75783F91F5B0C9F0011F6D6 /* Project object */;
+}

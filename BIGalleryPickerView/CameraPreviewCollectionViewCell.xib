@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CameraPreviewCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awe-OE-AVx">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNJ-MG-04Q">
+                                <rect key="frame" x="55" y="55" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="hTn-ml-rcA"/>
+                                    <constraint firstAttribute="height" constant="40" id="llW-dQ-qXf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HNJ-MG-04Q" firstAttribute="centerY" secondItem="awe-OE-AVx" secondAttribute="centerY" id="1UF-1D-AS1"/>
+                            <constraint firstItem="HNJ-MG-04Q" firstAttribute="centerX" secondItem="awe-OE-AVx" secondAttribute="centerX" id="YXI-MS-zol"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="awe-OE-AVx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7dY-4Z-3ZG"/>
+                <constraint firstItem="awe-OE-AVx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="UdW-5T-oVB"/>
+                <constraint firstAttribute="bottom" secondItem="awe-OE-AVx" secondAttribute="bottom" id="qek-6G-Kju"/>
+                <constraint firstAttribute="trailing" secondItem="awe-OE-AVx" secondAttribute="trailing" id="wFZ-oB-AkL"/>
+            </constraints>
+            <connections>
+                <outlet property="cameraIconLabel" destination="HNJ-MG-04Q" id="qBm-Bg-DjA"/>
+                <outlet property="cameraPreviewView" destination="awe-OE-AVx" id="vSt-aA-oXk"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
