@@ -17,15 +17,18 @@ typedef NS_ENUM( NSInteger, MaximunSelectionBlockingType) {
 
 
 
-static const PHAssetMediaType myAssetType = PHAssetMediaTypeImage;
 static const BOOL cameraViewPresent = YES;
-static const NSUInteger maximumSelectionConstant = 5;
-static const MaximunSelectionBlockingType mySelectionBlockType = MaximunSelectionBlockingTypeBlockSeletion;
 
 
 static const CGSize thumbnailSize = {80, 80};
 
 @implementation BIPickerView
+{
+    PHAssetMediaType myAssetType;
+    MaximunSelectionBlockingType mySelectionBlockType;
+    
+
+}
 @synthesize myPickerDelegate = _delegate;
 
 /*
@@ -38,6 +41,9 @@ static const CGSize thumbnailSize = {80, 80};
 -(void)awakeFromNib
 {
     [super awakeFromNib];
+    myAssetType = PHAssetMediaTypeImage;
+    mySelectionBlockType = MaximunSelectionBlockingTypeBlockSeletion;
+    self.maximunSelection = DefaultMaximumSelectionCount;
     attachmentViewBottom.constant= -(attachmentContainerView.frame.size.height);
     topContainerView.layer.cornerRadius = 10.0f;
     topContainerView.clipsToBounds = YES;
@@ -45,8 +51,8 @@ static const CGSize thumbnailSize = {80, 80};
 
     selectedAssetsArray = [NSMutableArray new];
 
-    [assetCollectionView registerNib:[UINib nibWithNibName:@"BICollectionViewCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"BICollectionViewCell"];
-    [assetCollectionView registerNib:[UINib nibWithNibName:@"CameraPreviewCollectionViewCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"CameraPreviewCell"];
+    [assetCollectionView registerNib:[UINib nibWithNibName:@"BICollectionViewCell" bundle:[NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"BIGalleryPickerViewResource" withExtension:@"bundle"]]] forCellWithReuseIdentifier:@"BICollectionViewCell"];
+    [assetCollectionView registerNib:[UINib nibWithNibName:@"CameraPreviewCollectionViewCell" bundle:[NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"BIGalleryPickerViewResource" withExtension:@"bundle"]]] forCellWithReuseIdentifier:@"CameraPreviewCell"];
 
     assetCollectionView.dataSource = self;
     
@@ -88,7 +94,7 @@ static const CGSize thumbnailSize = {80, 80};
 }
 -(instancetype)initWithTitle:(NSString *)title addLibraryTitle:(NSString *)addLibraryTitle alternateTitle:(NSString *)addLibraryAlternateTitle withActionTitles:(NSArray *)actioTitles cancelTitle:(NSString *)cancelTitle
 {
-self = [[[NSBundle mainBundle] loadNibNamed:@"BIPickerView" owner:self options:nil] objectAtIndex:0];
+self = [[[NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"BIGalleryPickerViewResource" withExtension:@"bundle"]] loadNibNamed:@"BIPickerView" owner:self options:nil] objectAtIndex:0];
     [self setTtitle:title addLibraryItemButtonTitle:addLibraryTitle alertnateTitle:addLibraryAlternateTitle actionTitiles:actioTitles cancelTitle:cancelTitle];
     
     return self;
@@ -153,6 +159,19 @@ self = [[[NSBundle mainBundle] loadNibNamed:@"BIPickerView" owner:self options:n
         self.maximunSelection = maximunSelection;
     }
 }
+-(void)setMediaAssetType:(PHAssetMediaType)mediaType
+{
+    if (self.hidden) {
+        myAssetType = mediaType;
+    }
+}
+-(void)setSelectionBlockType:(MaximunSelectionBlockingType)selectionBlockType
+{
+    if (self.hidden) {
+        mySelectionBlockType = selectionBlockType;
+    }
+}
+
 -(NSUInteger)maximunSelectionVar
 {
     return  self.maximunSelection;

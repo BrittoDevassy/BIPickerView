@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char BIGalleryPickerViewVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <BIGalleryPickerView/PublicHeader.h>
 
 
+#import "BIPickerView.h"

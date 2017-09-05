@@ -10,17 +10,20 @@
 		A757840C1F5B0C9F0011F6D6 /* BIGalleryPickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75784021F5B0C9F0011F6D6 /* BIGalleryPickerView.framework */; };
 		A75784111F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784101F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m */; };
 		A75784131F5B0C9F0011F6D6 /* BIGalleryPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784051F5B0C9F0011F6D6 /* BIGalleryPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A75784271F5B0CDC0011F6D6 /* BICollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A757841C1F5B0CDC0011F6D6 /* BICollectionViewCell.h */; };
+		A75784271F5B0CDC0011F6D6 /* BICollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A757841C1F5B0CDC0011F6D6 /* BICollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A75784281F5B0CDC0011F6D6 /* BICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A757841D1F5B0CDC0011F6D6 /* BICollectionViewCell.m */; };
 		A75784291F5B0CDC0011F6D6 /* BICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A757841E1F5B0CDC0011F6D6 /* BICollectionViewCell.xib */; };
 		A757842A1F5B0CDC0011F6D6 /* BIPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A757841F1F5B0CDC0011F6D6 /* BIPickerView.xib */; };
-		A757842B1F5B0CDC0011F6D6 /* BISelectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784201F5B0CDC0011F6D6 /* BISelectionButton.h */; };
+		A757842B1F5B0CDC0011F6D6 /* BISelectionButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784201F5B0CDC0011F6D6 /* BISelectionButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A757842C1F5B0CDC0011F6D6 /* BISelectionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784211F5B0CDC0011F6D6 /* BISelectionButton.m */; };
-		A757842D1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784221F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h */; };
+		A757842D1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784221F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A757842E1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784231F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.m */; };
 		A757842F1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75784241F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib */; };
-		A75784301F5B0CDC0011F6D6 /* BIPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784251F5B0CDC0011F6D6 /* BIPickerView.h */; };
+		A75784301F5B0CDC0011F6D6 /* BIPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784251F5B0CDC0011F6D6 /* BIPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A75784311F5B0CDC0011F6D6 /* BIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784261F5B0CDC0011F6D6 /* BIPickerView.m */; };
+		A7CF3C931F5F1496004F94D0 /* BICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A757841E1F5B0CDC0011F6D6 /* BICollectionViewCell.xib */; };
+		A7CF3C941F5F1496004F94D0 /* BIPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A757841F1F5B0CDC0011F6D6 /* BIPickerView.xib */; };
+		A7CF3C951F5F1496004F94D0 /* CameraPreviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75784241F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = A75784011F5B0C9F0011F6D6;
 			remoteInfo = BIGalleryPickerView;
+		};
+		A7CF3CD71F5F19F1004F94D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A75783F91F5B0C9F0011F6D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7CF3C8C1F5F1468004F94D0;
+			remoteInfo = BIGalleryPickerViewResource;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +61,8 @@
 		A75784241F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraPreviewCollectionViewCell.xib; sourceTree = "<group>"; };
 		A75784251F5B0CDC0011F6D6 /* BIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIPickerView.h; sourceTree = "<group>"; };
 		A75784261F5B0CDC0011F6D6 /* BIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPickerView.m; sourceTree = "<group>"; };
+		A7CF3C8D1F5F1468004F94D0 /* BIGalleryPickerViewResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIGalleryPickerViewResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CF3C8F1F5F1468004F94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +81,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7CF3C8A1F5F1468004F94D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +96,7 @@
 			children = (
 				A75784041F5B0C9F0011F6D6 /* BIGalleryPickerView */,
 				A757840F1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests */,
+				A7CF3C8E1F5F1468004F94D0 /* BIGalleryPickerViewResource */,
 				A75784031F5B0C9F0011F6D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,6 +106,7 @@
 			children = (
 				A75784021F5B0C9F0011F6D6 /* BIGalleryPickerView.framework */,
 				A757840B1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.xctest */,
+				A7CF3C8D1F5F1468004F94D0 /* BIGalleryPickerViewResource.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +140,14 @@
 			path = BIGalleryPickerViewTests;
 			sourceTree = "<group>";
 		};
+		A7CF3C8E1F5F1468004F94D0 /* BIGalleryPickerViewResource */ = {
+			isa = PBXGroup;
+			children = (
+				A7CF3C8F1F5F1468004F94D0 /* Info.plist */,
+			);
+			path = BIGalleryPickerViewResource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -149,6 +178,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A7CF3CD81F5F19F1004F94D0 /* PBXTargetDependency */,
 			);
 			name = BIGalleryPickerView;
 			productName = BIGalleryPickerView;
@@ -173,6 +203,23 @@
 			productReference = A757840B1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A7CF3C8C1F5F1468004F94D0 /* BIGalleryPickerViewResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7CF3C921F5F1468004F94D0 /* Build configuration list for PBXNativeTarget "BIGalleryPickerViewResource" */;
+			buildPhases = (
+				A7CF3C891F5F1468004F94D0 /* Sources */,
+				A7CF3C8A1F5F1468004F94D0 /* Frameworks */,
+				A7CF3C8B1F5F1468004F94D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BIGalleryPickerViewResource;
+			productName = BIGalleryPickerViewResource;
+			productReference = A7CF3C8D1F5F1468004F94D0 /* BIGalleryPickerViewResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,6 +235,11 @@
 						ProvisioningStyle = Automatic;
 					};
 					A757840A1F5B0C9F0011F6D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B44XA6P6WA;
+						ProvisioningStyle = Automatic;
+					};
+					A7CF3C8C1F5F1468004F94D0 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = B44XA6P6WA;
 						ProvisioningStyle = Automatic;
@@ -208,6 +260,7 @@
 			targets = (
 				A75784011F5B0C9F0011F6D6 /* BIGalleryPickerView */,
 				A757840A1F5B0C9F0011F6D6 /* BIGalleryPickerViewTests */,
+				A7CF3C8C1F5F1468004F94D0 /* BIGalleryPickerViewResource */,
 			);
 		};
 /* End PBXProject section */
@@ -227,6 +280,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CF3C8B1F5F1468004F94D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CF3C931F5F1496004F94D0 /* BICollectionViewCell.xib in Resources */,
+				A7CF3C941F5F1496004F94D0 /* BIPickerView.xib in Resources */,
+				A7CF3C951F5F1496004F94D0 /* CameraPreviewCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +315,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7CF3C891F5F1468004F94D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -259,6 +329,11 @@
 			isa = PBXTargetDependency;
 			target = A75784011F5B0C9F0011F6D6 /* BIGalleryPickerView */;
 			targetProxy = A757840D1F5B0C9F0011F6D6 /* PBXContainerItemProxy */;
+		};
+		A7CF3CD81F5F19F1004F94D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7CF3C8C1F5F1468004F94D0 /* BIGalleryPickerViewResource */;
+			targetProxy = A7CF3CD71F5F19F1004F94D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -419,6 +494,38 @@
 			};
 			name = Release;
 		};
+		A7CF3C901F5F1468004F94D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B44XA6P6WA;
+				INFOPLIST_FILE = BIGalleryPickerViewResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = britto.BIGalleryPickerViewResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A7CF3C911F5F1468004F94D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = B44XA6P6WA;
+				INFOPLIST_FILE = BIGalleryPickerViewResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = britto.BIGalleryPickerViewResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -438,12 +545,22 @@
 				A75784181F5B0C9F0011F6D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A75784191F5B0C9F0011F6D6 /* Build configuration list for PBXNativeTarget "BIGalleryPickerViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A757841A1F5B0C9F0011F6D6 /* Debug */,
 				A757841B1F5B0C9F0011F6D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7CF3C921F5F1468004F94D0 /* Build configuration list for PBXNativeTarget "BIGalleryPickerViewResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7CF3C901F5F1468004F94D0 /* Debug */,
+				A7CF3C911F5F1468004F94D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

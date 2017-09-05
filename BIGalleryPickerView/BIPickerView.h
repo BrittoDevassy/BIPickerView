@@ -15,6 +15,7 @@
 #define DefaultaddLibraryItemButtonTitle    @"Add photo"
 #define DefaultCancelButtonTitle    @"Cancel"
 #define DefaultAddLibraryItemButtonTitleAfterSelection  @"Attach %ld photo"
+#define DefaultMaximumSelectionCount 5
 @protocol BIPickerViewDelegate <NSObject>
 
 
