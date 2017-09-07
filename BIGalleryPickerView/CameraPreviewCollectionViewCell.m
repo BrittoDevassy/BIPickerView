@@ -14,7 +14,7 @@
     [super awakeFromNib];
     // Initialization code
     
-    [self.cameraIconLabel setFont:[UIFont fontWithName:@"cordiantlearn-icons-3" size:24]];
+    [self.cameraIconLabel setFont:[UIFont fontWithName:@"customFont" size:24]];
     [self.cameraIconLabel setText:@"\ue65F"];
     [self.cameraIconLabel setTextColor:[UIColor whiteColor]];
     

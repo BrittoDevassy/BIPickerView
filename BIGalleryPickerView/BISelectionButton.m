@@ -22,7 +22,7 @@
 {
     [super awakeFromNib];
     
-    [self.titleLabel setFont:[UIFont fontWithName:@"cordiantlearn-icons-3" size:15]];
+    [self.titleLabel setFont:[UIFont fontWithName:@"customFont" size:15]];
     [self setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self setTitleColor:[UIColor colorWithRed:67.0/255.0 green:215.0/255.0 blue:82.0/255.0 alpha:1] forState:UIControlStateSelected];
     [self setTitle:@"\ue78c" forState:UIControlStateNormal];
