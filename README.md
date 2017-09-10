@@ -1,5 +1,4 @@
 # BIPickerView
 
 ---
-## Installation
 
