@@ -24,6 +24,7 @@
 		A7CF3C931F5F1496004F94D0 /* BICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A757841E1F5B0CDC0011F6D6 /* BICollectionViewCell.xib */; };
 		A7CF3C941F5F1496004F94D0 /* BIPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A757841F1F5B0CDC0011F6D6 /* BIPickerView.xib */; };
 		A7CF3C951F5F1496004F94D0 /* CameraPreviewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A75784241F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib */; };
+		A7FA757A1F61BA68002DCA03 /* customFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7FA75791F61BA68002DCA03 /* customFont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		A75784261F5B0CDC0011F6D6 /* BIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIPickerView.m; sourceTree = "<group>"; };
 		A7CF3C8D1F5F1468004F94D0 /* BIGalleryPickerViewResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIGalleryPickerViewResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7CF3C8F1F5F1468004F94D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FA75791F61BA68002DCA03 /* customFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = customFont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				A75784231F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.m */,
 				A75784241F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib */,
 				A75784251F5B0CDC0011F6D6 /* BIPickerView.h */,
+				A7FA75791F61BA68002DCA03 /* customFont.ttf */,
 				A75784261F5B0CDC0011F6D6 /* BIPickerView.m */,
 				A75784061F5B0C9F0011F6D6 /* Info.plist */,
 			);
@@ -270,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7FA757A1F61BA68002DCA03 /* customFont.ttf in Resources */,
 				A757842F1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib in Resources */,
 				A75784291F5B0CDC0011F6D6 /* BICollectionViewCell.xib in Resources */,
 				A757842A1F5B0CDC0011F6D6 /* BIPickerView.xib in Resources */,
@@ -563,6 +567,7 @@
 				A7CF3C911F5F1468004F94D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
