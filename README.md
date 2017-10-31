@@ -16,10 +16,10 @@ picker.myPickerDelegate = self;
 picker.maximunSelection = 5;
 ```
 
-**present BIPickerView**
+**show picker view**
 
 ```objective-c
-[picker presentInView:self.view.window withCallback:^(BOOL success) {
+[picker presentInView:self.view withCallback:^(BOOL success) {
 
 }];
 ```
