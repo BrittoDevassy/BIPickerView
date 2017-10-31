@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A73F1D031F685830006E0451 /* selectionButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = A73F1D011F685830006E0451 /* selectionButtonSelected.png */; };
+		A73F1D041F685830006E0451 /* selectionButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = A73F1D011F685830006E0451 /* selectionButtonSelected.png */; };
+		A73F1D051F685830006E0451 /* selectionButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73F1D021F685830006E0451 /* selectionButtonSelected@2x.png */; };
+		A73F1D061F685830006E0451 /* selectionButtonSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73F1D021F685830006E0451 /* selectionButtonSelected@2x.png */; };
+		A73F1D1B1F685B78006E0451 /* selectionButtonUnSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73F1D1A1F685B78006E0451 /* selectionButtonUnSelected@2x.png */; };
+		A73F1D1C1F685B78006E0451 /* selectionButtonUnSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A73F1D1A1F685B78006E0451 /* selectionButtonUnSelected@2x.png */; };
+		A73F1D1E1F685C19006E0451 /* selectionButtonUnSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = A73F1D1D1F685C19006E0451 /* selectionButtonUnSelected.png */; };
+		A73F1D1F1F685C19006E0451 /* selectionButtonUnSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = A73F1D1D1F685C19006E0451 /* selectionButtonUnSelected.png */; };
 		A757840C1F5B0C9F0011F6D6 /* BIGalleryPickerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75784021F5B0C9F0011F6D6 /* BIGalleryPickerView.framework */; };
 		A75784111F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A75784101F5B0C9F0011F6D6 /* BIGalleryPickerViewTests.m */; };
 		A75784131F5B0C9F0011F6D6 /* BIGalleryPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A75784051F5B0C9F0011F6D6 /* BIGalleryPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A73F1D011F685830006E0451 /* selectionButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectionButtonSelected.png; sourceTree = "<group>"; };
+		A73F1D021F685830006E0451 /* selectionButtonSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectionButtonSelected@2x.png"; sourceTree = "<group>"; };
+		A73F1D1A1F685B78006E0451 /* selectionButtonUnSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selectionButtonUnSelected@2x.png"; sourceTree = "<group>"; };
+		A73F1D1D1F685C19006E0451 /* selectionButtonUnSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectionButtonUnSelected.png; sourceTree = "<group>"; };
 		A75784021F5B0C9F0011F6D6 /* BIGalleryPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BIGalleryPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75784051F5B0C9F0011F6D6 /* BIGalleryPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIGalleryPickerView.h; sourceTree = "<group>"; };
 		A75784061F5B0C9F0011F6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +141,10 @@
 				A75784251F5B0CDC0011F6D6 /* BIPickerView.h */,
 				A7FA75791F61BA68002DCA03 /* customFont.ttf */,
 				A75784261F5B0CDC0011F6D6 /* BIPickerView.m */,
+				A73F1D1A1F685B78006E0451 /* selectionButtonUnSelected@2x.png */,
+				A73F1D1D1F685C19006E0451 /* selectionButtonUnSelected.png */,
+				A73F1D011F685830006E0451 /* selectionButtonSelected.png */,
+				A73F1D021F685830006E0451 /* selectionButtonSelected@2x.png */,
 				A75784061F5B0C9F0011F6D6 /* Info.plist */,
 			);
 			path = BIGalleryPickerView;
@@ -274,8 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7FA757A1F61BA68002DCA03 /* customFont.ttf in Resources */,
+				A73F1D1B1F685B78006E0451 /* selectionButtonUnSelected@2x.png in Resources */,
 				A757842F1F5B0CDC0011F6D6 /* CameraPreviewCollectionViewCell.xib in Resources */,
+				A73F1D031F685830006E0451 /* selectionButtonSelected.png in Resources */,
 				A75784291F5B0CDC0011F6D6 /* BICollectionViewCell.xib in Resources */,
+				A73F1D051F685830006E0451 /* selectionButtonSelected@2x.png in Resources */,
+				A73F1D1E1F685C19006E0451 /* selectionButtonUnSelected.png in Resources */,
 				A757842A1F5B0CDC0011F6D6 /* BIPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +311,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73F1D061F685830006E0451 /* selectionButtonSelected@2x.png in Resources */,
 				A7CF3C931F5F1496004F94D0 /* BICollectionViewCell.xib in Resources */,
+				A73F1D1C1F685B78006E0451 /* selectionButtonUnSelected@2x.png in Resources */,
+				A73F1D041F685830006E0451 /* selectionButtonSelected.png in Resources */,
+				A73F1D1F1F685C19006E0451 /* selectionButtonUnSelected.png in Resources */,
 				A7CF3C941F5F1496004F94D0 /* BIPickerView.xib in Resources */,
 				A7CF3C951F5F1496004F94D0 /* CameraPreviewCollectionViewCell.xib in Resources */,
 			);
